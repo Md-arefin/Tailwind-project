@@ -15,24 +15,24 @@
             theme: {
                 extend: {
                     colors: {
-                        Yellow: '#FECC02',
-                        black: '#131313',
-                        gray: '#4E4E4E',
+                        yellow: "#FECC02",
+                        black: "#131313",
+                        gray: "#4E4E4E",
                     },
-                    fontfamily: {
-                        bebas: ['Bebas Neue', 'cursive'],
-                        montserrat: ['Montserrat', 'sans- serif'],
-                    }
-                }
-            }
-        }
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans- serif"],
+                    },
+                },
+            },
+        };
     </script>
     <title>Tailwind Projects</title>
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="bg-white h-20  ">
+    <nav class="bg-white h-20 fixed top-0 left-0 right-0 ">
         <div class="flex justify-between items-center  h-20 w-full max-w-7xl mx-auto font-bebas px-5">
             <h1 class="text-2xl">Jhaka Naka Production</h1>
             <ul class="flex gap-8 text-lg">
@@ -44,9 +44,20 @@
     </nav>
     <!-- main header -->
     <section class="h-screen pt-20 bg-[url('images/banner.jpg')] bg-cover">
+        <div class="h-full w-full max-w-7xl mx-auto px-5 flex items-center">
 
+            <div class="font-bebas">
+                <h3 class="font-bebas text-white text-lg ">Movie production studio</h3>
+                <h1 class="text-7xl text-white">Films MAde to</h1>
+                <h1 class="text-7xl text-yellow">Perfection</h1>
+                <p class="font-montserrat text-white max-w-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button class="font-bebas border-2 border-white py-2 px-3 text-white text-lg hover:border-black hover:text-black hover:bg-yellow transition-all">Discover More</button>
+            </div>
+
+        </div>
     </section>
-    
+
 
 </body>
 
